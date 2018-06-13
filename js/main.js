@@ -42,7 +42,7 @@ $(document).ready(function () {
         let $corzina = $('img.corzina');
         $corzina.attr('src','../img/red_corzina.png');
 
-        
+
 
         let $countDiv = $('<div />', {
             class: 'countDiv',
