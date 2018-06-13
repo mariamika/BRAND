@@ -41,12 +41,15 @@ $(document).ready(function () {
         //заменяем изображение корины в главном меню и добавляем количество товара
         let $corzina = $('img.corzina');
         $corzina.attr('src','../img/red_corzina.png');
+
+        
+
         let $countDiv = $('<div />', {
             class: 'countDiv',
-            text: `lhlkn`
+            text: `(...)`
         });
 
-        $corzina.after($countDiv);
+        $corzina.before($countDiv);
     })
 
 });
